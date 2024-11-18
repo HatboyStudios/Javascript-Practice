@@ -11,11 +11,3 @@ function init() {
 function addInitializer(func) {
     intializer.push(func);
 }
-
-function testFunc() {
-    console.log("test function to run through initializer");
-}
-
-addInitializer(testFunc);
-
-init();

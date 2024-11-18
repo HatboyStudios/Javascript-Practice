@@ -11,12 +11,6 @@ function loopingFunc() {
     }
 }
 
-function testFunc() {
-    console.log("hello from loop");
-}
-
 function addLoopFunc(func) {
     looping.push(func);
 }
-
-addLoopFunc(testFunc);
