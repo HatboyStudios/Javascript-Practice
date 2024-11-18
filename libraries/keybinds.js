@@ -14,6 +14,7 @@ function keyDown(e) {
 	}
 
     console.log(keycode);
+    val_up = null;
     val_down = keycode;
 }
 
@@ -29,6 +30,7 @@ function keyUp(e) {
 	}
 
     console.log(keycode);
+    val_down = null;
     val_up = keycode
 }
 

@@ -6,10 +6,14 @@ function setup() {
 
 function draw() {
     player_test.draw();
-    //console.log(keyIsDown("u"));
+    console.log(keyIsDown("u"), keyIsUp("u"));
 
-    if(keyIsDown("d") && !keyIsUp("d")) {
+    if(keyIsDown("d")) {
         player_test.x += 5;
+    }
+
+    if(keyIsDown("a")) {
+        player_test.x -= 5;
     }
 }
 
