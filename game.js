@@ -8,10 +8,8 @@ function draw() {
     player_test.draw();
     //console.log(keyIsDown("u"));
 
-    if(keyIsDown("d")) {
+    if(keyIsDown("d") && !keyIsUp("d")) {
         player_test.x += 5;
-    }else {
-        player_test.x = player_test.x;
     }
 }
 
