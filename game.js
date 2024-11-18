@@ -6,6 +6,13 @@ function setup() {
 
 function draw() {
     player_test.draw();
+    //console.log(keyIsDown("u"));
+
+    if(keyIsDown("d")) {
+        player_test.x += 5;
+    }else {
+        player_test.x = player_test.x;
+    }
 }
 
 addInitializer(setup);
