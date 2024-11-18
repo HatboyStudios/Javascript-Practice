@@ -20,5 +20,3 @@ function addLoopFunc(func) {
 }
 
 addLoopFunc(testFunc);
-
-loop();
