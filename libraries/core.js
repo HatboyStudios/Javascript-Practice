@@ -1,3 +1,8 @@
-var canvas = document.getElementById("game");
+var canvas;
+var ctx;
 
-var ctx = canvas.getContext("2d");
+function loadGame() {
+    canvas = document.getElementById("game");
+    ctx = canvas.getContext("2d");
+    init();
+}

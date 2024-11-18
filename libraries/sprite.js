@@ -14,6 +14,3 @@ class Sprite {
         ctx.fillRect(this.x+1, this.y+1, this.w-2, this.h-2);
     }
 }
-
-let test = new Sprite(20,20,50,50);
-test.draw();
