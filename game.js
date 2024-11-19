@@ -8,6 +8,7 @@ function setup() {
 }
 
 function draw() {
+    clear();
     background("purple");
     player_test.draw();
     player_test.movement();
