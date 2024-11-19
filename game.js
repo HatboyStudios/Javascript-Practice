@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+    background("purple");
     player_test.draw();
     player_test.movement();
     console.log(keyIsDown("u"), keyIsUp("u"));
