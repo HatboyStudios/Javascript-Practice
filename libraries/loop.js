@@ -2,7 +2,7 @@ var looping = [];
 var loop_status = true;
 
 function loop() {
-    setInterval(loopingFunc, 5);
+    setInterval(loopingFunc, 10);
 }
 
 function loopingFunc() {

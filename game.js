@@ -1,10 +1,11 @@
 var player_test;
 
 function setup() {
-    player_test = new Sprite(20,20,100,100);
+    player_test = new Sprite(20,20,50,50);
 }
 
 function draw() {
+    background("purple");
     player_test.draw();
     console.log(keyIsDown("u"), keyIsUp("u"));
 
