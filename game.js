@@ -1,6 +1,9 @@
 var player_test;
 
 function setup() {
+    addScore("player_health", 100);
+
+    console.log(scores);
     player_test = new Player(20,20,50,50);
 }
 
